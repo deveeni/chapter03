@@ -70,9 +70,9 @@ public class Point {
 		if (getClass() != obj.getClass())
 			return false;
 		LangClassTest other = (LangClassTest) obj;
-		if (x != other.x)
+		if ( this.x != x )
 			return false;
-		if (y != other.y)
+		if ( this.y != y )
 			return false;
 		return true;
 	}
